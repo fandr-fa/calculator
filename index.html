@@ -4,36 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="calculator">
-        <input id="display" disabled>
-        <div class="calculator-row">
-            <button class="digit-button">7</button>
-            <button class="digit-button">8</button>
-            <button class="digit-button">9</button>
-            <button class="op-button">&divide</button>
+    <div class="container">
+        <h1>Calculator</h1>
+        <div id="calculator">
+            <input id="display" disabled>
+            <div class="calculator-row">
+                <button class="digit-button">7</button>
+                <button class="digit-button">8</button>
+                <button class="digit-button">9</button>
+                <button class="op-button">&divide</button>
+            </div>
+            <div class="calculator-row">
+                <button class="digit-button">4</button>
+                <button class="digit-button">5</button>
+                <button class="digit-button">6</button>
+                <button class="op-button">*</button>
+            </div>
+            <div class="calculator-row">
+                <button class="digit-button">1</button>
+                <button class="digit-button">2</button>
+                <button class="digit-button">3</button>
+                <button class="op-button">-</button>
+            </div>
+            <div class="calculator-row">
+                <button id="clear-button">Clear</button>
+                <button class="digit-button">0</button>
+                <button id="equals-button">=</button>
+                <button class="op-button">+</button>
+            </div>
         </div>
-        <div class="calculator-row">
-            <button class="digit-button">4</button>
-            <button class="digit-button">5</button>
-            <button class="digit-button">6</button>
-            <button class="op-button">*</button>
-        </div>
-        <div class="calculator-row">
-            <button class="digit-button">1</button>
-            <button class="digit-button">2</button>
-            <button class="digit-button">3</button>
-            <button class="op-button">-</button>
-        </div>
-        <div class="calculator-row">
-            <button id="clear-button">Clear</button>
-            <button class="digit-button">0</button>
-            <button id="equals-button">=</button>
-            <button class="op-button">+</button>
+        <div id="footer">
+            Made by <a href="https://github.com/fandr-fa" id="signature">Andrei Fomin</a>
         </div>
     </div>
 </body>
